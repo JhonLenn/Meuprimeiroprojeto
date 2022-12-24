@@ -1,0 +1,88 @@
+body{
+    background: linear-gradient(67deg, rgba(25,135,170,1) 4%, rgba(3,78,115,1) 69%);
+ 
+}
+
+#Premium{
+    padding: 10px;
+    background-color:#ffd700;
+    border-radius: 10px;
+}
+
+#Pro{
+    padding: 10px;
+    background-color:silver;
+    border-radius: 10px;
+}
+
+#Básico{
+    padding: 10px;
+    background-color: #cd7f32;
+    border-radius: 10px;
+}
+.linha-hor-topo{
+    position: relative;
+    margin-top: 30px;
+}
+.collapse{
+    font-size: 18px;
+}
+
+.nav-link:hover{
+    background-color: darkgrey;
+    padding: 5px;
+    color: black;
+    border-radius: 10px;
+}
+
+.bi-check-lg{
+    color: lightgreen;
+}
+.bi-x-lg{
+    color: red;
+}
+
+.card-price{
+    padding: 10px;
+    
+}
+.botao-cadastro{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.link-cadastro{
+    font-size: 30px;
+    padding: 10px;
+    text-decoration: none;
+    background-color: #14d69c;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}
+
+#campo-radio-basico{
+    padding: 10px;
+    background-color: #cd7f32;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: black;
+}
+
+#campo-radio-pro{
+    padding: 10px;
+    background-color:silver;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: black;
+}
+
+#campo-radio-premium{
+    padding: 10px;
+    background-color:#ffd700;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: black;
+
+}

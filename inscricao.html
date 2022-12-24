@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Inscrição</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark mb-3 py-5">
+        <h3 class="fw-bold text-white ms-5 d-none d-lg-block">Academia HealthStyle</h3>
+        <div class="container-fluid">
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a href="index.html" class="nav-link  me-lg-5 text-white ">Principal</a>
+                    <a href="#" class="nav-link  me-lg-5 text-white">Sobre</a>
+                    <a href="#" class="nav-link  me-lg-5 text-white">Localizaçao</a>
+                    <a href="#" class="nav-link  me-lg-5 text-white">Contato</a>
+                </div>
+                <form  class="d-flex ms-auto me-5" >
+                    <div class="input-group">
+                        <span class="bi bi-search input-group-text fs-1"></span>
+                        <input type="search" class="form-control">
+                        <button class="btn btn-secondary fs-5">Buscar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container p-3 mb-5">
+        <h1 class="text-center display-1 fw-bold text-white mb-5">Formulário de Inscrição</h1>
+        <form method="post" class="needs-validation" novalidate>
+            <div class="row bg-dark text-white p-5  rounded-5 shadow-lg" id="form-div">
+                <div class="col-12">
+                    <label for="" class="form-label">Nome Completo</label>
+                    <input type="text" class="form-control" required>
+                </div>
+    
+                <div class="col-12 col-md-8">
+                    <label for="" class="form-label">E-mail</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="col-12 col-md-4">
+                    <label for="" class="form-label">Celular</label>
+                    <input type="tel" class="form-control" required pattern="[0-9]{11}">
+                </div>
+                <div class="col-9 col-md-5">
+                    <label for="" class="form-label">logradouro</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="col-3 col-md-2">
+                    <label for="" class="form-label">Nº</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class=" col-12 col-md-5 ">
+                    <label for="" class="form-label">Complemento</label>
+                    <input type="text" class="form-control">
+                </div>
+                <div class="col-12 col-md-5">
+                    <label for="" class="form-label">Bairro</label>
+                    <input type="text" class="form-control" required>
+                </div>
+                <div class="col-12 col-md-5">
+                    <label for="" class="form-label">Cidade</label>
+                    <input type="text" class="form-control" required >
+                </div>
+                <div class="col-6 col-md-2">
+                    <label for="" class="form-label">CEP</label>
+                    <input type="text" class="form-control" required pattern="[0-9]{8}" placeholder="Ex: 29104250">
+                </div>
+
+                <div class="container row d-flex justify-content-around mt-5 mb-5 py-2">
+                    <div class="col-8 col-lg-3 mt-5 text-center" id="campo-radio-basico">
+                        <div class="">
+                        <input type="radio" class="form-check-input" name="combo" id="basico">
+                        <label for="basico" class="form-label">Básico</label>
+                        <label for=""></label>
+                        <select >
+                            <option value="">Academia</option>
+                            <option value="">Muay thai</option>
+                            <option value="">Fit Dance</option>
+                        </select>
+                        </div>
+                    </div>
+                    <div class="col-8 col-lg-3 mt-5 me-3 text-center" id="campo-radio-pro">
+                        <input type="radio" class="form-check-input" name="combo" id="pro">
+                        <label for="pro" class="form-label">Pro</label><br>
+                        <input type="checkbox" class="form-check-input">
+                        <label for="" class="btn-primary form-label">Academia</label><br>
+                        <input type="checkbox" class="form-check-input">
+                        <label for="" class="form-label">Muay thai</label><br>
+                        <input type="checkbox" class="form-check-input">
+                        <label for="" class="form-label">Fit Dance</label><br>
+                        <span>Obs: Duas Opçoes</span>
+                    </div>
+                    <div class="col-8 col-lg-3 mt-5  text-center" id="campo-radio-premium">
+                        <input type="radio" class="form-check-input"  name="combo" id="premium">
+                        <label for="premium" class="form-label">Premium</label><br>
+                        <span>Academia <i class="bi bi-check-lg text-black  fs-4"></i></span><br>
+                        <span>Muay thai <i class="bi bi-check-lg text-black fs-4"></i></span><br>
+                        <span>Fit Dance <i class="bi bi-check-lg text-black fs-4"></i></span>
+                    </div>
+                </div>
+                <div class="btn-outline-primary text-center p-3">
+                <button class="btn btn-primary px-3" type="submit">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script>
+        (() => {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  const forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+      if (!form.checkValidity()) {
+        event.preventDefault()
+        event.stopPropagation()
+      }
+
+      form.classList.add('was-validated')
+    }, false)
+  })
+})()
+    </script>
+    <footer class="p-5 bg-black text-center">
+        <h2 class="text-white ms-2">Academia HelthStyle®</h2>
+            <span class="text-white">
+            <span class="bi bi-whatsapp me-5"> 27-xxxxx-xxxx</span>
+            <span class="bi bi-facebook "> <span class="bi bi-twitter"> <span class="bi bi-instagram"></span></span> HealthStyle</span>
+            </span>
+    </footer>
+    
+</body>
+</html>

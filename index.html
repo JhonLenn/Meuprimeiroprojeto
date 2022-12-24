@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Principal</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-black navbar-dark py-5 mb-3">
+        <h3 class="fw-bold text-white ms-5 d-none d-lg-block">Academia HealthStyle</h3>
+        <div class="container-fluid">
+            <button class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent">
+            <span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+                <div class="navbar-nav">
+                    <a href="#" class="nav-link  me-lg-5 text-white ">Principal</a>
+                    <a href="#" class="nav-link  me-lg-5 text-white">Sobre</a>
+                    <a href="#" class="nav-link  me-lg-5 text-white">Localizaçao</a>
+                    <a href="#" class="nav-link  me-lg-5 text-white">Contato</a>
+                </div>
+                <form  class="d-flex ms-auto me-5" >
+                    <div class="input-group">
+                        <span class="bi bi-search input-group-text fs-1"></span>
+                        <input type="search" class="form-control">
+                        <button class="btn btn-secondary fs-5">Buscar</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <main id="conteudo-principal"> 
+        <div class="container text-center">
+            <h3 class="display-1 fw-bolder text-white">Tabela de Preços <span class="badge bg-success p-3">Combo</span></h3>
+        </div>
+        <div class=" row mt-0 text-center justify-content-center position-relative">
+            <div class="card-price col-12 col-xl mb-3 rounded-3 mt-md-5 ms-lg-5 me-lg-5 p-5  text-white bg-dark me-2 position-relative">
+                <span class="display-1 fw-bold" id="Básico">Básico</span>
+                <hr class="linha-hor-topo">
+                <span class="display-2 fw-bolder">Musculação <i class="bi bi-check-lg"></i></span><br>
+                <span class="display-2 fw-bolder">Fit Dance <i class="bi bi-x-lg"></i></span><br>
+                <span class="display-2 fw-bolder">Muay Thai <i class="bi bi-x-lg"></i></span><br>
+                <span class="display-4 fw-bold ">R$ 70,00</span>
+                <hr>
+                <span class="fs-4" >Ou qualquer modalidade por: R$ 70,00</span>
+            </div>
+            <div class=" card-price col-12 col-xl mb-3 rounded-3 mt-md-5  p-5 me-lg-5 ms-lg-5 text-white bg-dark me-2 position-relative">
+                <span class="display-1 fw-bold px-5" id="Pro">Pro</span>
+                <hr class="linha-hor-topo">
+                <span class="display-2 fw-bolder">Musculação <i class="bi bi-check-lg"></i></span><br>
+                <span class="display-2 fw-bolder">Fit Dance <i class="bi bi-check-lg"></i></span><br>
+                <span class="display-2 fw-bolder">Muay Thai <i class="bi bi-x-lg"></i></span><br>
+                <span class="display-4 fw-bold">R$ 100,00</span>
+                <div></div>
+                <hr>
+            </div>
+            <div class="card-price col-12 col-xl mb-3 rounded-3 mt-md-5 me-lg-5 ms-lg-5  p-5 bg-dark text-white position-relative">
+                <span class="display-1 fw-bold" id="Premium">Premium</span>
+                <hr class="linha-hor-topo">
+                <span class="display-2 fw-bolder">Musculação <i class="bi bi-check-lg"></i></span><br>
+                <span class="display-2 fw-bolder">Fit Dance <i class="bi bi-check-lg"></i></span><br>
+                <span class="display-2 fw-bolder">Muay Thai <i class="bi bi-check-lg"></i></span><br>
+                <span class="display-4 fw-bold ">R$ 140,00</span>
+                <hr>
+            </div>
+        </div>
+        <div class="container py-5">
+            <div class="carousel slide"
+            data-bs-ride="carousel" id="carouselExampleControls">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleControls" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <h1 class="text-center display-1 fw-bold text-white p-5 bg-dark rounded-3">Depoimento de alunos</h1>
+                
+                <div class="carousel-inner mt-5 ">
+                    <div class="carousel-item active ">
+                        <img src="imgs/fit-couple-lifting-barbells-gym.jpg" class="d-block w-100  img-thumbnail">
+                        <div class="carousel-caption display-5">
+                            ipsum dolor sit amet   elit. Aspernatur aperiam nesciunt nostrum eius commodi dolorum.
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <img src="imgs/strong-man-training-gym.jpg" class="d-block w-100 img-thumbnail">
+                        <div class="carousel-caption display-5">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item ">
+                        <img src="imgs/young-woman-boxer-training-gym.jpg" class="d-block w-100 img-thumbnail">
+                        <div class="carousel-caption display-5">
+                             ipsum dolor sit amet  adipisicing elit. Aspernatur aperiam nesciunt 
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button?random=3" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+            </div>
+        </div>
+        <div class="botao-cadastro">
+        <a href="inscricao.html" class="link-cadastro">Realizar cadastro</a>
+        </div>
+    </main>
+    <footer class="p-5 bg-black text-center">
+        <h2 class="text-white ms-2">Academia HelthStyle®</h2>
+            <span class="text-white">
+            <span class="bi bi-whatsapp me-5"> 27-xxxxx-xxxx</span>
+            <span class="bi bi-facebook "> <span class="bi bi-twitter"> <span class="bi bi-instagram"></span></span> HealthStyle</span>
+            </span>
+    </footer>
+</html>
