@@ -84,5 +84,19 @@ body{
     border-radius: 10px;
     font-weight: bolder;
     color: black;
+}
 
+.div-mapa{
+    padding: 0px;
+    border: solid 3px #909b9c;
+    background: rgb(0, 0, 0);
+    width: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.mapa{
+    width: 80vh;
+    height: 30vh;
+    border-radius: 10px;
 }
